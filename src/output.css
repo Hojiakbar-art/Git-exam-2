@@ -180,6 +180,12 @@
   .right-10 {
     right: calc(var(--spacing) * 10);
   }
+  .right-\[80px\] {
+    right: 80px;
+  }
+  .right-\[100px\] {
+    right: 100px;
+  }
   .m-\[0_0\] {
     margin: 0 0;
   }
@@ -255,6 +261,12 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .flex-grow {
+    flex-grow: 1;
+  }
+  .grow {
+    flex-grow: 1;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -276,6 +288,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -290,6 +305,9 @@
   }
   .gap-15 {
     gap: calc(var(--spacing) * 15);
+  }
+  .gap-30 {
+    gap: calc(var(--spacing) * 30);
   }
   .gap-\[14px\] {
     gap: 14px;
@@ -493,6 +511,11 @@
   .lg\:gap-5 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:gap-30 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 30);
     }
   }
   .lg\:rounded-\[0px_20px_20px_0px\] {
