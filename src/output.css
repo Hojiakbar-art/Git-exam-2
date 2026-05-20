@@ -348,6 +348,9 @@
   .gap-\[14px\] {
     gap: 14px;
   }
+  .justify-self-center {
+    justify-self: center;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -534,6 +537,11 @@
   .lg\:w-200 {
     @media (width >= 64rem) {
       width: calc(var(--spacing) * 200);
+    }
+  }
+  .lg\:max-w-3 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 3);
     }
   }
   .lg\:max-w-300 {
