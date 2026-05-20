@@ -381,6 +381,17 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-l {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
+  .border-l-1 {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 1px;
+  }
+  .border-l-\[1px_red\] {
+    border-left-color: 1px red;
+  }
   .bg-\[\#061B3A\] {
     background-color: #061B3A;
   }
@@ -401,6 +412,9 @@
   }
   .p-7 {
     padding: calc(var(--spacing) * 7);
+  }
+  .p-8 {
+    padding: calc(var(--spacing) * 8);
   }
   .p-\[1px_10px\] {
     padding: 1px 10px;
