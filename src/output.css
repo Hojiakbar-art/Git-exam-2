@@ -264,6 +264,12 @@
   .mt-100 {
     margin-top: calc(var(--spacing) * 100);
   }
+  .mt-150 {
+    margin-top: calc(var(--spacing) * 150);
+  }
+  .mt-180 {
+    margin-top: calc(var(--spacing) * 180);
+  }
   .mt-\[30px\] {
     margin-top: 30px;
   }
@@ -511,6 +517,11 @@
   .lg\:mt-10 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:mt-180 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 180);
     }
   }
   .lg\:\!hidden {
